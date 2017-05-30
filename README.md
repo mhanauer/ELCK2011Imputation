@@ -1,151 +1,1211 @@
+Show in New WindowClear OutputExpand/Collapse Output
+The working directory was changed to /Users/matthewhanauer/Google Drive/PARCS/Projects/ECLSK2011/Data inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the the working directory for notebook chunks.     X12LANGST X_CHSEX_R X1RESREL X1HPARNT X1PRIMNW
+[1,]         2         1        1        1        0
+[2,]         2         2        1        1        0
+[3,]         2         1       NA       NA       NA
+[4,]         2         1        1        1        7
+[5,]         2         2        1        1        7
+[6,]         2         2        3        3        5
+R Console
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X1BMI
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	16.40	
+2	2.6	4.00	1.25	2.5	3.50	22.19	
+3	NA	NA	NA	NA	NA	NA	
+4	1.8	3.33	1.25	3.5	2.50	18.14	
+5	2.2	3.67	2.00	1.5	3.50	15.20	
+6	2.0	3.00	1.25	3.0	3.17	17.28	
+6 rows | 1-7 of 99 columns
+data.frame
+6 x 99
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X1BMI
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	16.40	
+2	2.6	4.00	1.25	2.5	3.50	22.19	
+3	NA	NA	NA	NA	NA	NA	
+4	1.8	3.33	1.25	3.5	2.50	18.14	
+5	2.2	3.67	2.00	1.5	3.50	15.20	
+6	2.0	3.00	1.25	3.0	3.17	17.28	
+6 rows | 1-7 of 106 columns
+data.frame
+6 x 106
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X1BMI
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	16.40	
+2	2.6	4.00	1.25	2.5	3.50	22.19	
+3	NA	NA	NA	NA	NA	NA	
+4	1.8	3.33	1.25	3.5	2.50	18.14	
+5	2.2	3.67	2.00	1.5	3.50	15.20	
+6	2.0	3.00	1.25	3.0	3.17	17.28	
+6 rows | 1-7 of 106 columns
+data.frame
+6 x 106
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X1BMI
+<dbl>
+X1PAR1AGE
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	16.40	34	
+2	2.6	4.00	1.25	2.5	3.50	22.19	33	
+3	NA	NA	NA	NA	NA	NA	NA	
+4	1.8	3.33	1.25	3.5	2.50	18.14	33	
+5	2.2	3.67	2.00	1.5	3.50	15.20	39	
+6	2.0	3.00	1.25	3.0	3.17	17.28	30	
+6 rows | 1-8 of 106 columns
+Show in New WindowClear OutputExpand/Collapse Output
+ 
+ 
+X12LANGST
+<dbl>
+X_CHSEX_R
+<dbl>
+X1RESREL
+<dbl>
+X1HPARNT
+<dbl>
+X1PRIMNW
+<dbl>
+1	0	1	1	1	0
+2	0	0	1	1	0
+3	0	1	NA	NA	NA
+4	0	1	1	1	0
+5	0	0	1	1	0
+6	0	0	0	0	0
+6 rows
+data.frame
+6 x 5
+[1] 8018
+R Console
+[1] 8018
+Show in New WindowClear OutputExpand/Collapse Output
+     X1PRNCON X1PRNSOC X1PRNSAD X1PRNIMP X1PRNAPP X_HISP_R X_WHITE_R X_BLACK_R
+[1,]      3.2     3.33     1.50      2.0     3.83        0         1         0
+[2,]      2.6     4.00     1.25      2.5     3.50        0         1         0
+[3,]       NA       NA       NA       NA       NA        1         0         0
+[4,]      1.8     3.33     1.25      3.5     2.50        0         1         0
+[5,]      2.2     3.67     2.00      1.5     3.50        1         0         0
+[6,]      2.0     3.00     1.25      3.0     3.17        0         1         0
+     X_ASIAN_R X_AMINAN_R X_HAWPI_R X_MULTR_R X_CHSEX_R X1BMI X1RESREL X1HPARNT
+[1,]         0          0         0         0         1 16.40        1        1
+[2,]         0          0         0         0         0 22.19        1        1
+[3,]         0          0         0         0         1    NA       NA       NA
+[4,]         0          0         0         0         1 18.14        1        1
+[5,]         0          0         0         0         0 15.20        1        1
+[6,]         0          0         0         0         0 17.28        0        0
+     X1PAR1AGE X1PAR1RAC X12PAR1ED_I X1PAR1EMP X1HTOTAL X1NUMSIB X1PRIMNW X2POVTY
+[1,]        34         0           5         4        6        3        0       2
+[2,]        33         0           5         4        4        0        0       3
+[3,]        NA        NA           8        NA       NA       NA       NA       3
+[4,]        33         0           5         1        4        1        0       3
+[5,]        39         0           4         1        5        2        0       2
+[6,]        30         0           3         1        4        1        0       2
+     X12SESL
+[1,]   -0.13
+[2,]    0.27
+[3,]    2.07
+[4,]   -0.26
+[5,]    0.28
+[6,]   -0.69
+NULL
+R Console
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X_HISP_R
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	0	
+2	2.6	4.00	1.25	2.5	3.50	0	
+3	NA	NA	NA	NA	NA	1	
+4	1.8	3.33	1.25	3.5	2.50	0	
+5	2.2	3.67	2.00	1.5	3.50	1	
+6	2.0	3.00	1.25	3.0	3.17	0	
+6 rows | 1-7 of 106 columns
+data.frame
+6 x 106
+ 
+ 
+X1PRNCON
+<dbl>
+X1PRNSOC
+<dbl>
+X1PRNSAD
+<dbl>
+X1PRNIMP
+<dbl>
+X1PRNAPP
+<dbl>
+X_HISP_R
+<dbl>
+X_WHITE_R
+<dbl>
+1	3.2	3.33	1.50	2.0	3.83	0	1	
+2	2.6	4.00	1.25	2.5	3.50	0	1	
+3	NA	NA	NA	NA	NA	1	0	
+4	1.8	3.33	1.25	3.5	2.50	0	1	
+5	2.2	3.67	2.00	1.5	3.50	1	0	
+6	2.0	3.00	1.25	3.0	3.17	0	1	
+6 rows | 1-8 of 106 columns
+Show in New WindowClear OutputExpand/Collapse Output
+[1] "list"
+Modify Chunk OptionsRun Current ChunkModify Chunk OptionsRun All Chunks AboveRun Current ChunkModify Chunk OptionsRun All Chunks AboveRun Current ChunkModify Chunk OptionsRun All Chunks AboveRun Current ChunkModify Chunk OptionsRun All Chunks AboveRun Current ChunkModify Chunk OptionsRun All Chunks AboveRun Current Chunk
+Show in New WindowClear OutputExpand/Collapse Output
+observations with zero weight not used for calculating dispersion
+Console~/Desktop/
+			
+ [833]  2  2  2  2  2  2  2 NA  2  2 NA  1  2  2  2  2  2  2  1  2  2  2 NA  2  3 NA
+ [859]  1  2  2  2  1  1  2  2  2  2  1  1  2  1  2  2  2 NA NA NA  2  2 NA  2  2  2
+ [885]  1  2 NA  2  2  1 NA NA  2  3 NA  1 NA  2 NA NA NA  2  2  2  2  2  1  2  2  1
+ [911]  2 NA  2 NA  2  2  2  2  2  2  2  1 NA  1  2  2  1  2  2  2  1  2  1  2 NA  1
+ [937]  2  2  2  2  2  2  2  2  2 NA  1  2  2  2  2  1  2 NA  2  2  1  1  2  2  1  2
+ [963]  2  1  1  2  2 NA  2  2  2  1  2  2  2  1  2  2  1  2 NA  2  1  2  2  2  1  1
+ [989]  2  2  2  2 NA  1  3  2 NA  2  2  2
+ [ reached getOption("max.print") -- omitted 17174 entries ]
+> a.out = amelia(x = data1, m=m, ords = c("X1PAR1EMP", "X2POVTY", "X12PAR1ED_I"), logs = c("X1HTOTAL", "X1NUMSIB"), noms = c("X_HISP_R", "X_WHITE_R", "X_BLACK_R", "X_ASIAN_R", "X_AMINAN_R", "X_HAWPI_R", "X_MULTR_R", "X_CHSEX_R", "X1RESREL", "X1HPARNT", "X1PRIMNW", "X1PAR1RAC"))
+Amelia Error Code:  44 
+ One of the variable names in the options list does not match a variable name in the data. 
+> # Rearrange and then rename variables to get them in the correct order.  This includes getting data2 and data3 into the correct order as well, because you need to rename all of these variables. 
+> 
+> data5 = cbind(X1PRNCON = data1$X1PRNCON, X1PRNSOC = data1$X1PRNSOC, X1PRNSAD = data1$X1PRNSAD, X1PRNIMP = data1$X1PRNIMP, X1PRNAPP = data1$X1PRNAPP,X_HISP_R = data4$X_HISP_R, X_WHITE_R = data4$X_WHITE_R, X_BLACK_R = data4$X_BLACK_R, X_ASIAN_R = data4$X_ASIAN_R, X_AMINAN_R = data4$X_AMINAN_R, X_HAWPI_R = data4$X_HAWPI_R, X_MULTR_R = data4$X_MULTR_R, X_CHSEX_R = data2$X_CHSEX_R, X1BMI = data1$X1BMI,X1RESREL = data2$X1RESREL,X1HPARNT = data2$X1HPARNT, X1PAR1AGE = data1$X1PAR1AGE, X1PAR1RAC = data6$X1PAR1RAC,X12PAR1ED_I = data1$X12PAR1ED_I, X1PAR1EMP = data1$X1PAR1EMP, X1HTOTAL = data1$X1HTOTAL, X1NUMSIB = data1$X1NUMSIB, X1PRIMNW = data2$X1PRIMNW, X2POVTY = data1$X2POVTY, X12SESL = data1$X12SESL)
+Error in data2$X_CHSEX_R : $ operator is invalid for atomic vectors
+> setwd("~/Google Drive/PARCS/Projects/ECLSK2011/Data")
+The working directory was changed to /Users/matthewhanauer/Google Drive/PARCS/Projects/ECLSK2011/Data inside a notebook chunk. The working directory will be reset when the chunk is finished running. Use the knitr root.dir option in the setup chunk to change the the working directory for notebook chunks.> 
+> # These are all of the variables that can remain unchanged
+> data1 = cbind(X1PRNCON = data$X1PRNCON, X1PRNSOC = data$X1PRNSOC, X1PRNSAD = data$X1PRNSAD, X1PRNIMP = data$X1PRNIMP, X1PRNAPP = data$X1PRNAPP, X1BMI = data$X1BMI, X1PAR1AGE = data$X1PAR1AGE, X1PAR1EMP = data$X1PAR1EMP, X1HTOTAL = data$X1HTOTAL, X1NUMSIB = data$X1NUMSIB, X2POVTY = data$X2POVTY, X12SESL = data$X12SESL, X12PAR1ED_I = data$X12PAR1ED_I, X12LANGST = data$X12LANGST,  X_CHSEX_R = data$X_CHSEX_R, X1RESREL = data$X1RESREL, X1HPARNT = data$X1HPARNT, X1PRIMNW = data$X1PRIMNW, W1P0 = data$W1P0, data[,10894:10973])
+> head(data1)
+> 
+> 
+> # These are variables that will need to be changed to binary at a later date.
+> data2 = cbind(X12LANGST = data$X12LANGST,  X_CHSEX_R = data$X_CHSEX_R, X1RESREL = data$X1RESREL, X1HPARNT = data$X1HPARNT, X1PRIMNW = data$X1PRIMNW)
+> head(data2)
+     X12LANGST X_CHSEX_R X1RESREL X1HPARNT X1PRIMNW
+[1,]         2         1        1        1        0
+[2,]         2         2        1        1        0
+[3,]         2         1       NA       NA       NA
+[4,]         2         1        1        1        7
+[5,]         2         2        1        1        7
+[6,]         2         2        3        3        5
+> # We will need to create new variables for each race with this variable.
+> data3 = cbind(X_RACETHP_R = data$X_RACETHP_R)
+> 
+> data4  = cbind( X1PAR1RAC = data$X1PAR1RAC)
+> data4 = as.data.frame(data4)
+> 
+> #Combining all four of the datas.  Keeping them seperate for data transformations below
+> data1 = cbind(data1, data2, data3, data4)
+> head(data1)
+> # Change the -9 to NAs
+> data1 = apply(data1, 2, function(x){ifelse(x == -9, NA, x)})
+> data1 = as.data.frame(data1)
+> head(data1)
+> 
+> 
+> 
+> data2 = cbind(X12LANGST = data1$X12LANGST,  X_CHSEX_R = data1$X_CHSEX_R, X1RESREL = data1$X1RESREL, X1HPARNT = data1$X1HPARNT, X1PRIMNW = data1$X1PRIMNW)
+> 
+> data2 = ifelse(is.na(data2), NA, ifelse(data2 == 1, 1,0))
+> data2 = as.data.frame(data2)
+> head(data2)
+> 
+> # Here is the ethnicity variable that needs to be transformed into the original variables that you used.  Remember that original variable were incorrect and just keeping the names the same here for consistency.
+> X_HISP_R = ifelse(is.na(data3), NA, ifelse(data3 == 3, 1, 0))
+> X_HISP_R = as.data.frame(X_HISP_R)
+> names(X_HISP_R) = c("X_HISP_R")
+> 
+> X_WHITE_R = ifelse(is.na(data3), NA, ifelse(data3 == 1, 1, 0))
+> X_WHITE_R = as.data.frame(X_WHITE_R)
+> names(X_WHITE_R) = c("X_WHITE_R")
+> sum(X_WHITE_R, na.rm =TRUE)
+[1] 8018
+> 
+> X_BLACK_R = ifelse(is.na(data3), NA, ifelse(data3 == 2, 1, 0))
+> X_BLACK_R = as.data.frame(X_BLACK_R)
+> names(X_BLACK_R) = c("X_BLACK_R")
+> 
+> X_ASIAN_R = ifelse(is.na(data3), NA, ifelse(data3 == 5, 1, 0))
+> X_ASIAN_R = as.data.frame(X_ASIAN_R)
+> names(X_ASIAN_R) = c("X_ASIAN_R")
+> 
+> X_AMINAN_R = ifelse(is.na(data3), NA, ifelse(data3 == 7, 1, 0))
+> X_AMINAN_R = as.data.frame(X_AMINAN_R)
+> names(X_AMINAN_R) = c("X_AMINAN_R")
+> 
+> X_HAWPI_R = ifelse(is.na(data3), NA, ifelse(data3 == 6, 1, 0))
+> X_HAWPI_R = as.data.frame(X_HAWPI_R)
+> names(X_HAWPI_R) = c("X_HAWPI_R")
+> 
+> X_MULTR_R = ifelse(is.na(data3), NA, ifelse(data3 == 8, 1, 0))
+> X_MULTR_R = as.data.frame(X_MULTR_R)
+> names(X_MULTR_R) = c("X_MULTR_R")
+> 
+> 
+> data4 = cbind(X_HISP_R, X_WHITE_R, X_BLACK_R, X_ASIAN_R, X_AMINAN_R, X_AMINAN_R, X_HAWPI_R, X_MULTR_R)
+> data4 = as.data.frame(data4)
+> 
+> # Need to change 2 through 8 to be 1 and 1 to be zero
+> data6 = cbind(X1PAR1RAC = data1$X1PAR1RAC)
+> data6 = ifelse(is.na(data6), NA, ifelse(data6 == 1, 0,1))
+> data6 = as.data.frame(data6)
+> # Rearrange and then rename variables to get them in the correct order.  This includes getting data2 and data3 into the correct order as well, because you need to rename all of these variables. 
+> 
+> data5 = cbind(X1PRNCON = data1$X1PRNCON, X1PRNSOC = data1$X1PRNSOC, X1PRNSAD = data1$X1PRNSAD, X1PRNIMP = data1$X1PRNIMP, X1PRNAPP = data1$X1PRNAPP,X_HISP_R = data4$X_HISP_R, X_WHITE_R = data4$X_WHITE_R, X_BLACK_R = data4$X_BLACK_R, X_ASIAN_R = data4$X_ASIAN_R, X_AMINAN_R = data4$X_AMINAN_R, X_HAWPI_R = data4$X_HAWPI_R, X_MULTR_R = data4$X_MULTR_R, X_CHSEX_R = data2$X_CHSEX_R, X1BMI = data1$X1BMI,X1RESREL = data2$X1RESREL,X1HPARNT = data2$X1HPARNT, X1PAR1AGE = data1$X1PAR1AGE, X1PAR1RAC = data6$X1PAR1RAC,X12PAR1ED_I = data1$X12PAR1ED_I, X1PAR1EMP = data1$X1PAR1EMP, X1HTOTAL = data1$X1HTOTAL, X1NUMSIB = data1$X1NUMSIB, X1PRIMNW = data2$X1PRIMNW, X2POVTY = data1$X2POVTY, X12SESL = data1$X12SESL)
+> 
+> head(data5)
+     X1PRNCON X1PRNSOC X1PRNSAD X1PRNIMP X1PRNAPP X_HISP_R X_WHITE_R X_BLACK_R
+[1,]      3.2     3.33     1.50      2.0     3.83        0         1         0
+[2,]      2.6     4.00     1.25      2.5     3.50        0         1         0
+[3,]       NA       NA       NA       NA       NA        1         0         0
+[4,]      1.8     3.33     1.25      3.5     2.50        0         1         0
+[5,]      2.2     3.67     2.00      1.5     3.50        1         0         0
+[6,]      2.0     3.00     1.25      3.0     3.17        0         1         0
+     X_ASIAN_R X_AMINAN_R X_HAWPI_R X_MULTR_R X_CHSEX_R X1BMI X1RESREL X1HPARNT
+[1,]         0          0         0         0         1 16.40        1        1
+[2,]         0          0         0         0         0 22.19        1        1
+[3,]         0          0         0         0         1    NA       NA       NA
+[4,]         0          0         0         0         1 18.14        1        1
+[5,]         0          0         0         0         0 15.20        1        1
+[6,]         0          0         0         0         0 17.28        0        0
+     X1PAR1AGE X1PAR1RAC X12PAR1ED_I X1PAR1EMP X1HTOTAL X1NUMSIB X1PRIMNW X2POVTY
+[1,]        34         0           5         4        6        3        0       2
+[2,]        33         0           5         4        4        0        0       3
+[3,]        NA        NA           8        NA       NA       NA       NA       3
+[4,]        33         0           5         1        4        1        0       3
+[5,]        39         0           4         1        5        2        0       2
+[6,]        30         0           3         1        4        1        0       2
+     X12SESL
+[1,]   -0.13
+[2,]    0.27
+[3,]    2.07
+[4,]   -0.26
+[5,]    0.28
+[6,]   -0.69
+> 
+> 
+> data1 = cbind(data5, W1P0 = data1[,19], data1[,20:99])
+> data1 = as.data.frame(data1)
+> 
+> head(data1)
+> data1$X12LANGST
+NULL
+> library(Amelia)
+> library(mitools)
+> library(survey)
+> m = 5
+> a.out = amelia(x = data1, m=m, ords = c("X1PAR1EMP", "X2POVTY", "X12PAR1ED_I"), logs = c("X1HTOTAL", "X1NUMSIB"), noms = c("X_HISP_R", "X_WHITE_R", "X_BLACK_R", "X_ASIAN_R", "X_AMINAN_R", "X_HAWPI_R", "X_MULTR_R", "X_CHSEX_R", "X1RESREL", "X1HPARNT", "X1PRIMNW", "X1PAR1RAC"))
+-- Imputation 1 --
+
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37
+
+-- Imputation 2 --
+
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38
+
+-- Imputation 3 --
+
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ 21 22 23 24 25 26 27 28 29 30 31 32
+
+-- Imputation 4 --
+
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ 21 22 23 24 25 26 27 28 29 30 31 32 33
+
+-- Imputation 5 --
+
+  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36
+
+> write.amelia(obj = a.out, file.stem = "ECLSK")
+> ECLSK1  = read.csv("ECLSK1.csv", header = TRUE)
+> ECLSK1[,,19:99]
+> ECLSK1[,19:99]
+> ECLSK1 = as.data.frame(ECLSK1)
+> ECLSK1[,19:99]
+> ECLSK1[19:45]
+> ECLSK1[19:99]
+> setwd("~/Desktop")
+> ECLSK1  = read.csv("ECLSK1.csv", header = TRUE)
+> ECLSK1 = as.data.frame(ECLSK1)
+> ECLSK1[19:45]
+> ECLSK1[,19:20]
+> ECLSK1[,27:28]
+> ECLSK1[,27:106]
+> ECLSK1[,27:107]
+> scdrep = svrepdesign(data = ECLSK1, type="JKn", repweights = ECLSK1[,27:107], weights = ECLSK1[,27], combined.weights = TRUE, rscales = 1, scale = 1, nest = TRUE)
+> svymean(ECLSK1, scdrep)
+                   mean      SE
+X            9.1002e+03 47.8672
+X1PRNCON     2.8844e+00  0.0065
+X1PRNSOC     3.4363e+00  0.0086
+X1PRNSAD     1.4853e+00  0.0050
+X1PRNIMP     2.0488e+00  0.0091
+X1PRNAPP     3.1775e+00  0.0065
+X_HISP_R     2.3783e-01  0.0134
+X_WHITE_R    5.2250e-01  0.0170
+X_BLACK_R    1.3250e-01  0.0129
+X_ASIAN_R    3.7802e-02  0.0054
+X_AMINAN_R   9.5745e-03  0.0045
+X_HAWPI_R    3.0590e-03  0.0005
+X_MULTR_R    4.3830e-02  0.0024
+X_CHSEX_R    5.1607e-01  0.0051
+X1BMI        1.6495e+01  0.0299
+X1RESREL     8.5987e-01  0.0034
+X1HPARNT     6.7726e-01  0.0092
+X1PAR1AGE    3.3852e+01  0.1071
+X1PAR1RAC    4.2764e-01  0.0172
+X12PAR1ED_I  4.5918e+00  0.0432
+X1PAR1EMP    2.2709e+00  0.0226
+X1HTOTAL     4.5810e+00  0.0221
+X1NUMSIB     1.4920e+00  0.0192
+X1PRIMNW     1.0199e-01  0.0038
+X2POVTY      2.2231e+00  0.0220
+X12SESL     -7.0252e-02  0.0217
+W1P0         3.7517e+02  7.5438
+W1P1         3.7524e+02  7.5557
+W1P2         3.7524e+02  7.5336
+W1P3         3.7503e+02  7.5756
+W1P4         3.7513e+02  7.5583
+W1P5         3.7517e+02  7.6421
+W1P6         3.7496e+02  7.7600
+W1P7         3.7506e+02  7.6389
+W1P8         3.7520e+02  7.5500
+W1P9         3.7526e+02  7.6883
+W1P10        3.7526e+02  7.6740
+W1P11        3.7570e+02  8.0988
+W1P12        3.7508e+02  7.5607
+W1P13        3.7510e+02  7.7699
+W1P14        3.7497e+02  7.5893
+W1P15        3.7482e+02  7.5695
+W1P16        3.7530e+02  7.8734
+W1P17        3.7546e+02  7.5962
+W1P18        3.7519e+02  7.5417
+W1P19        3.7553e+02  7.7802
+W1P20        3.7523e+02  7.5788
+W1P21        3.7503e+02  7.5506
+W1P22        3.7495e+02  7.6604
+W1P23        3.7533e+02  7.6011
+W1P24        3.7531e+02  7.6150
+W1P25        3.7494e+02  7.6337
+W1P26        3.7538e+02  7.6476
+W1P27        3.7532e+02  7.7501
+W1P28        3.7533e+02  7.6918
+W1P29        3.7532e+02  7.7966
+W1P30        3.7530e+02  7.6502
+W1P31        3.7516e+02  7.5659
+W1P32        3.7510e+02  7.5257
+W1P33        3.7508e+02  7.5768
+W1P34        3.7503e+02  7.5682
+W1P35        3.7533e+02  7.6127
+W1P36        3.7476e+02  7.5961
+W1P37        3.7564e+02  7.9991
+W1P38        3.7521e+02  7.6905
+W1P39        3.7500e+02  7.5995
+W1P40        3.7503e+02  7.5840
+W1P41        3.7629e+02 12.6971
+W1P42        3.7591e+02 12.4911
+W1P43        3.7552e+02 11.2902
+W1P44        3.7480e+02 11.9755
+W1P45        3.7500e+02  9.9626
+W1P46        3.7415e+02  9.9652
+W1P47        3.7587e+02 11.7919
+W1P48        3.7485e+02  9.9987
+W1P49        3.7629e+02 14.5043
+W1P50        3.7550e+02  9.5786
+W1P51        3.7588e+02 10.0818
+W1P52        3.7517e+02  9.4364
+W1P53        3.7520e+02  9.5374
+W1P54        3.7609e+02 15.1628
+W1P55        3.7495e+02 10.1327
+W1P56        3.7485e+02 11.9340
+W1P57        3.7459e+02  9.9191
+W1P58        3.7446e+02  7.7476
+W1P59        3.7413e+02 11.4595
+W1P60        3.7549e+02 11.6197
+W1P61        3.7575e+02 10.0509
+W1P62        3.7682e+02 14.5976
+W1P63        3.7486e+02 11.8622
+W1P64        3.7506e+02  8.3228
+W1P65        3.7443e+02  7.7694
+W1P66        3.7594e+02  9.6765
+W1P67        3.7487e+02 10.0839
+W1P68        3.7539e+02  9.6948
+W1P69        3.7522e+02 10.8546
+W1P70        3.7457e+02  8.8259
+W1P71        3.7598e+02 11.4915
+W1P72        3.7527e+02  8.6218
+W1P73        3.7239e+02 10.5276
+W1P74        3.7525e+02 15.4052
+W1P75        3.7566e+02 14.3480
+W1P76        3.7379e+02 14.3767
+W1P77        3.7364e+02 12.8419
+W1P78        3.7444e+02 11.1561
+W1P79        3.7122e+02 12.2278
+W1P80        3.7901e+02 18.6395
+> ECLSK1 = ECLSK1[c(-1)]
+> ECLSK1  = read.csv("ECLSK1.csv", header = TRUE)
+> ECLSK1  = read.csv("ECLSK1.csv", header = TRUE)
+> ECLSK1 = ECLSK1[c(-1)]
+> ECLSK1 = as.data.frame(ECLSK1)
+> scdrep = svrepdesign(data = ECLSK1, type="JKn", repweights = ECLSK1[,27:107], weights = ECLSK1[,27], combined.weights = TRUE, rscales = 1, scale = 1, nest = TRUE)
+Error in `[.data.frame`(ECLSK1, , 27:107) : undefined columns selected
+> ECLSK1[,27]
+   [1] 211.95594 274.16753   0.00000 103.52929 237.44085 525.34084 542.98729
+   [8] 176.77791 326.22097 344.56411 306.09157 445.84458   0.00000 292.70458
+  [15]   0.00000   0.00000 351.59789   0.00000 268.62480   0.00000 217.81417
+  [22] 222.14599 274.42250 278.95845   0.00000 283.77487 191.29507 288.83275
+  [29] 255.95991 319.92567 473.37034 198.56854 258.52601 308.30292 687.05864
+  [36] 266.90815   0.00000 252.44523   0.00000 132.99368 352.17078 151.72834
+  [43]   0.00000   0.00000 142.37126 260.24048 318.09194   0.00000 184.54324
+  [50]   0.00000 493.26004 249.23209 198.05575 125.81810   0.00000 324.05049
+  [57] 147.59944 307.14783   0.00000 404.26807   0.00000 399.87138   0.00000
+  [64] 473.13712 480.15979 354.60565 314.56234 343.56590   0.00000 165.18446
+  [71]   0.00000   0.00000 198.56854 273.31978 260.24048 237.01432   0.00000
+  [78] 299.08396 343.73937 369.27932 197.00112 230.59041  78.10954   0.00000
+  [85] 142.37126 314.71617   0.00000 516.75552 631.38343 494.85582   0.00000
+  [92] 282.44860 312.93760 351.28011 483.84321 220.35873 254.86038   0.00000
+  [99] 262.86396 283.77487   0.00000 314.87979   0.00000   0.00000 220.76362
+ [106] 287.17176 169.68728 304.16518   0.00000   0.00000 246.64073 224.22485
+ [113] 159.04597   0.00000 162.08084 307.14783 133.46303 343.71803 244.43243
+ [120] 721.86282 472.22713 135.39591 231.15413 272.05204 246.64073 230.98281
+ [127] 405.64456 354.60565 142.36528   0.00000   0.00000 139.21868   0.00000
+ [134] 369.21226   0.00000 118.78372 133.46303 353.86390 546.76405 213.65350
+ [141] 376.34308   0.00000 146.93801   0.00000   0.00000   0.00000 278.95845
+ [148] 304.86751   0.00000   0.00000 223.68946 308.30292 123.72698   0.00000
+ [155] 133.74285 876.54417 176.41144 219.36961  84.22560 366.46500   0.00000
+ [162] 144.98170   0.00000 228.73074 222.50901 155.14545 191.70045 421.24041
+ [169]  79.69496   0.00000 327.11643   0.00000 344.27839 179.59645 443.09346
+ [176]   0.00000 491.08044 327.02454 163.66594   0.00000   0.00000   0.00000
+ [183]  98.01299 344.30217 396.99793 264.06339   0.00000 429.40024 274.29321
+ [190]   0.00000 164.26115 305.29599 268.51697 157.56603 294.00910 376.71991
+ [197] 281.90846 260.33705   0.00000 307.34712 365.07939 483.25413   0.00000
+ [204]   0.00000   0.00000 438.30799   0.00000   0.00000   0.00000 438.67468
+ [211]   0.00000 128.66389 362.24400 335.48974 351.81900   0.00000   0.00000
+ [218] 100.01639   0.00000   0.00000 351.81900 258.19620 472.31944 228.73074
+ [225] 293.84790 405.73105 326.66169 441.61179   0.00000 335.48974 989.36055
+ [232] 210.90118 184.54324 278.69178 186.71203   0.00000   0.00000 122.32731
+ [239] 152.69113 350.50151 196.01654   0.00000 400.14154 135.39591 388.43976
+ [246] 307.34712   0.00000 248.43791 223.85395 326.66169 483.25413 227.08779
+ [253]   0.00000 189.81829   0.00000 346.16206 490.81994 375.85596 435.10167
+ [260] 222.50901   0.00000 345.61703 208.90586 284.99385 322.00930 241.73944
+ [267] 296.10692 145.48496 282.13063   0.00000 180.54768 229.44674 366.46500
+ [274] 674.93451   0.00000 287.48661   0.00000   0.00000 171.95434 309.63189
+ [281] 179.58538 156.62689 318.56436 448.27652 290.39119 133.60057 318.09194
+ [288] 674.93451   0.00000 347.40227 229.25294 220.76362 288.73145 157.93494
+ [295] 369.28747   0.00000 333.87890 321.64054   0.00000 212.08792 409.85807
+ [302] 876.54417 199.11091 179.42074 213.85653   0.00000   0.00000   0.00000
+ [309] 343.73937 367.09612 162.01098 249.93587 316.90066 821.23309 442.30249
+ [316] 399.87138 364.96880 346.48143 227.00241 271.09283 224.22485 189.34225
+ [323] 171.95434 314.87979 388.43976 291.12143 324.05049 199.62549 613.27538
+ [330] 272.62240   0.00000 306.98695 294.91099 589.28992 375.89677 292.84118
+ [337] 132.09242   0.00000   0.00000 429.08668 125.00723   0.00000   0.00000
+ [344] 315.36122 472.31944 435.10167 317.40427 298.37813 521.41338   0.00000
+ [351] 333.06781   0.00000 222.50901 100.01639   0.00000 876.54417 352.47655
+ [358] 638.85924   0.00000 258.52601 527.28535   0.00000   0.00000 320.17303
+ [365]   0.00000 180.62698 166.65900 220.76362 353.33155 459.64860   0.00000
+ [372] 675.84761 170.71054   0.00000   0.00000   0.00000   0.00000 173.71379
+ [379] 521.41338   0.00000 288.69600 101.26012 308.98638 256.16899 990.01380
+ [386] 304.16518 213.14426 353.80390 328.20766 151.72834   0.00000 344.72284
+ [393] 121.61480 224.22485   0.00000   0.00000 219.79147 175.98405 210.45861
+ [400] 284.83316 319.95551 472.54599   0.00000   0.00000 423.94799 837.42539
+ [407]   0.00000 189.91583 300.82407 343.13807 227.60131   0.00000   0.00000
+ [414] 136.32929 261.11597 364.70740  98.24955 296.10692 374.06682   0.00000
+ [421] 220.76362 264.06339 193.54866   0.00000 302.24091   0.00000 457.59228
+ [428] 251.21927   0.00000 459.64860   0.00000 329.31170 264.88810 397.98670
+ [435] 447.66783   0.00000 297.16569 191.29507 292.26603 304.05266 266.15869
+ [442] 231.88771 369.21226   0.00000 216.19613 454.51109 378.83664 710.20851
+ [449] 491.08044   0.00000   0.00000 299.08396   0.00000 853.19707 279.90663
+ [456]   0.00000 379.11660   0.00000 396.99793  92.19085 304.05266   0.00000
+ [463]   0.00000 244.43243 131.90397 317.40427 132.35406 201.50159 234.46105
+ [470] 308.30292   0.00000 139.21868 185.99197 302.24091 212.95679 283.77487
+ [477] 304.16518 328.73529 344.41091 438.00269 323.71589 589.28992 335.48974
+ [484] 259.48143 276.99216   0.00000 171.95434 294.76986   0.00000 274.42250
+ [491] 307.33502 306.98695   0.00000 500.91043 288.69600 210.97221 164.22662
+ [498] 350.50151 200.08101 260.00189 236.91029 378.34134  92.92158   0.00000
+ [505]   0.00000 268.80051 217.81417 209.20890   0.00000 314.56234 208.88809
+ [512] 295.45830   0.00000 254.86038 219.69101 351.59789 299.27245 317.40427
+ [519] 244.75408 249.55851 383.22051 240.71013 229.44674   0.00000 107.30257
+ [526] 226.77621 172.55842 265.04043 288.83275 376.71991 399.87138 317.58007
+ [533]   0.00000 319.73520 376.05477 292.70458 109.74980   0.00000   0.00000
+ [540] 112.97944 159.73800 149.73296 386.28359 139.21868 376.89076   0.00000
+ [547]   0.00000   0.00000 331.20440 314.71617 173.36018 392.88068 252.51873
+ [554] 156.62689 142.37126   0.00000   0.00000   0.00000 326.66169 358.07897
+ [561]  61.83450 292.42435 258.39436 448.27652   0.00000   0.00000 354.17567
+ [568]   0.00000   0.00000   0.00000   0.00000 403.36220 193.54866 258.19620
+ [575] 220.60776 283.77487 179.59645   0.00000  95.95535   0.00000 398.38509
+ [582] 294.47877 230.59041 260.84265   0.00000 413.45239   0.00000 199.92174
+ [589] 119.97469   0.00000 755.16638 246.73158 292.84118 199.62549 248.81573
+ [596] 172.55842 344.56132   0.00000   0.00000   0.00000 314.87979   0.00000
+ [603] 326.99325   0.00000 405.52980 284.99385 255.48034 252.73255   0.00000
+ [610] 438.30799   0.00000 174.12394 111.73196 175.46638 375.89677 229.05708
+ [617]   0.00000 294.05981 314.87979 227.80881 176.77791 167.21606 234.08028
+ [624] 306.98695 387.22443 990.63467 329.15657 131.75337  50.43287   0.00000
+ [631]   0.00000   0.00000 287.17176 377.26799 342.36777 101.37974 199.11091
+ [638] 169.81723 329.46738 173.13238   0.00000 189.81829 245.80292 199.62549
+ [645]   0.00000 375.85596 479.29789   0.00000 299.99750 311.34410 356.72725
+ [652] 294.85649   0.00000   0.00000   0.00000 260.24048  50.64337   0.00000
+ [659]   0.00000 193.54866 284.58808 230.98281   0.00000   0.00000 222.84959
+ [666] 167.39837 344.30217   0.00000 240.87724 125.81810   0.00000   0.00000
+ [673] 464.48503 245.54011 417.81689 198.56854   0.00000   0.00000  43.67402
+ [680] 250.38488   0.00000 324.16864   0.00000 394.57026 322.49024 294.91099
+ [687] 131.75337 258.52601 229.24032 344.27839 309.92626 123.72698 831.60203
+ [694]   0.00000 317.40427 319.92567 539.74763 261.65792 338.18923 151.54418
+ [701] 222.67001 560.18535 159.73800 138.93588 296.85096 236.91029   0.00000
+ [708]   0.00000 339.19185 472.54599 123.93673 322.00930   0.00000 209.20890
+ [715] 107.30257 323.94986 315.79182 434.93788 156.93874 159.04597   0.00000
+ [722]   0.00000 318.56436 112.97944   0.00000 310.96741 142.37126 253.99480
+ [729] 212.08792 431.83051 229.24032 525.34084 344.72284 314.10492 625.23026
+ [736]   0.00000   0.00000   0.00000   0.00000 349.79748 304.16518 142.37126
+ [743] 479.29789 287.92419 282.14149   0.00000 318.09617   0.00000   0.00000
+ [750] 422.69541 500.91043 304.05266   0.00000 675.84761 175.98405   0.00000
+ [757]  82.24096 353.86390 491.08044 831.60203   0.00000 351.38714 240.71013
+ [764] 291.81426 274.42250   0.00000 306.65443 164.87167 220.76362 287.48661
+ [771] 336.91622 494.85582 132.09242 557.43402 274.87209 224.40727 117.62629
+ [778] 170.38477 208.90586 348.70796 314.71617 136.32929 472.31944 205.56882
+ [785] 252.51873 210.97221 306.98695 118.33178   0.00000   0.00000 636.51203
+ [792]   0.00000 284.99385   0.00000 351.28011 636.51203   0.00000   0.00000
+ [799]   0.00000 288.69600 168.88030 636.51203 235.84313 278.77344 821.23309
+ [806] 459.12844 253.48497   0.00000   0.00000 347.94974 356.72725 294.76986
+ [813]   0.00000 269.73827 223.85395 318.09194 358.07897 369.21226   0.00000
+ [820] 490.81994 299.99750 196.11489 262.86396 394.15261 120.29055 275.04740
+ [827]   0.00000 123.93673   0.00000 322.80238 307.35592 283.04901 140.47974
+ [834] 277.93096 248.81573 326.99325 373.59624 165.40331 200.08101   0.00000
+ [841]   0.00000 148.76403   0.00000 417.09850 320.17303   0.00000 365.07939
+ [848]   0.00000 352.47655 382.74807 328.73880   0.00000   0.00000   0.00000
+ [855]   0.00000 192.57645 298.37813   0.00000 168.88030 349.79748 343.93075
+ [862] 225.70660 356.72725 437.14366   0.00000 315.75999 249.93587 229.05708
+ [869]   0.00000 146.45321 232.86254 222.67001 261.37883 255.07701 196.11489
+ [876]   0.00000   0.00000   0.00000 351.81900   0.00000   0.00000 251.59288
+ [883] 314.60079 220.60776 353.80390 495.61920   0.00000 423.94547 167.65620
+ [890] 253.99480   0.00000   0.00000 248.43791 664.62415   0.00000 351.40599
+ [897]   0.00000 473.37034   0.00000   0.00000   0.00000   0.00000   0.00000
+ [904] 288.73145 392.88068   0.00000 331.20440 169.67570 191.29507   0.00000
+ [911] 304.73401   0.00000   0.00000   0.00000   0.00000 269.98407 443.09346
+ [918]   0.00000 344.68546 260.24048 249.40102   0.00000   0.00000  83.65320
+ [925] 233.71919   0.00000 447.51578 211.95594 447.66783 225.70660 169.68728
+ [932]   0.00000   0.00000 352.73516   0.00000 262.40205 347.96054   0.00000
+ [939] 194.41754 321.64054 336.04524  83.97034 274.99509 309.92626 275.04740
+ [946]   0.00000   0.00000 310.96741 265.92996 588.57059 345.25396   0.00000
+ [953] 152.30769   0.00000 307.14783 342.71398   0.00000 309.52590   0.00000
+ [960]   0.00000 235.84313 350.50151 314.10492 120.31248 365.32114 191.76059
+ [967] 292.70458   0.00000 521.41338 977.20506 165.18446 227.60131   0.00000
+ [974]   0.00000 388.43976   0.00000 655.33731 604.81687 266.90815 347.96054
+ [981]   0.00000 267.96103   0.00000 255.48034 431.22072   0.00000 491.08044
+ [988] 219.36961 207.51424 289.94994 346.48143 401.29184   0.00000 128.66389
+ [995]   0.00000 241.73944   0.00000 421.24041 229.62249 191.56911
+ [ reached getOption("max.print") -- omitted 17174 entries ]
+> ECLSK1[,27:28]
+> ECLSK1[,26:106]
+> scdrep = svrepdesign(data = ECLSK1, type="JKn", repweights = ECLSK1[,26:106], weights = ECLSK1[,26], combined.weights = TRUE, rscales = 1, scale = 1, nest = TRUE)
+> svymean(ECLSK1, scdrep)
+                   mean      SE
+X1PRNCON      2.8844061  0.0065
+X1PRNSOC      3.4363285  0.0086
+X1PRNSAD      1.4852886  0.0050
+X1PRNIMP      2.0488073  0.0091
+X1PRNAPP      3.1774778  0.0065
+X_HISP_R      0.2378346  0.0134
+X_WHITE_R     0.5225024  0.0170
+X_BLACK_R     0.1324976  0.0129
+X_ASIAN_R     0.0378019  0.0054
+X_AMINAN_R    0.0095745  0.0045
+X_HAWPI_R     0.0030590  0.0005
+X_MULTR_R     0.0438298  0.0024
+X_CHSEX_R     0.5160719  0.0051
+X1BMI        16.4954846  0.0299
+X1RESREL      0.8598708  0.0034
+X1HPARNT      0.6772550  0.0092
+X1PAR1AGE    33.8515708  0.1071
+X1PAR1RAC     0.4276423  0.0172
+X12PAR1ED_I   4.5917991  0.0432
+X1PAR1EMP     2.2709122  0.0226
+X1HTOTAL      4.5810360  0.0221
+X1NUMSIB      1.4920482  0.0192
+X1PRIMNW      0.1019882  0.0038
+X2POVTY       2.2231476  0.0220
+X12SESL      -0.0702516  0.0217
+W1P0        375.1667975  7.5438
+W1P1        375.2373542  7.5557
+W1P2        375.2373605  7.5336
+W1P3        375.0276364  7.5756
+W1P4        375.1320190  7.5583
+W1P5        375.1653658  7.6421
+W1P6        374.9553414  7.7600
+W1P7        375.0618806  7.6389
+W1P8        375.1985639  7.5500
+W1P9        375.2592800  7.6883
+W1P10       375.2611119  7.6740
+W1P11       375.6999512  8.0988
+W1P12       375.0769718  7.5607
+W1P13       375.1020850  7.7699
+W1P14       374.9734739  7.5893
+W1P15       374.8154085  7.5695
+W1P16       375.2974639  7.8734
+W1P17       375.4575396  7.5962
+W1P18       375.1877879  7.5417
+W1P19       375.5319870  7.7802
+W1P20       375.2306164  7.5788
+W1P21       375.0327542  7.5506
+W1P22       374.9514134  7.6604
+W1P23       375.3332102  7.6011
+W1P24       375.3126525  7.6150
+W1P25       374.9358125  7.6337
+W1P26       375.3769378  7.6476
+W1P27       375.3202565  7.7501
+W1P28       375.3335582  7.6918
+W1P29       375.3210101  7.7966
+W1P30       375.2982988  7.6502
+W1P31       375.1565485  7.5659
+W1P32       375.0969989  7.5257
+W1P33       375.0819893  7.5768
+W1P34       375.0294810  7.5682
+W1P35       375.3274305  7.6127
+W1P36       374.7596846  7.5961
+W1P37       375.6384140  7.9991
+W1P38       375.2091402  7.6905
+W1P39       375.0042881  7.5995
+W1P40       375.0328089  7.5840
+W1P41       376.2920218 12.6971
+W1P42       375.9067691 12.4911
+W1P43       375.5231887 11.2902
+W1P44       374.7969025 11.9755
+W1P45       374.9973387  9.9626
+W1P46       374.1523224  9.9652
+W1P47       375.8740572 11.7919
+W1P48       374.8545228  9.9987
+W1P49       376.2886429 14.5043
+W1P50       375.4954454  9.5786
+W1P51       375.8841760 10.0818
+W1P52       375.1671034  9.4364
+W1P53       375.2023129  9.5374
+W1P54       376.0876604 15.1628
+W1P55       374.9464293 10.1327
+W1P56       374.8459782 11.9340
+W1P57       374.5928504  9.9191
+W1P58       374.4560824  7.7476
+W1P59       374.1338928 11.4595
+W1P60       375.4869969 11.6197
+W1P61       375.7540529 10.0509
+W1P62       376.8171836 14.5976
+W1P63       374.8630964 11.8622
+W1P64       375.0641226  8.3228
+W1P65       374.4322642  7.7694
+W1P66       375.9448274  9.6765
+W1P67       374.8657538 10.0839
+W1P68       375.3861189  9.6948
+W1P69       375.2242191 10.8546
+W1P70       374.5692742  8.8259
+W1P71       375.9813164 11.4915
+W1P72       375.2657027  8.6218
+W1P73       372.3942499 10.5276
+W1P74       375.2531948 15.4052
+W1P75       375.6599612 14.3480
+W1P76       373.7943375 14.3767
+W1P77       373.6384128 12.8419
+W1P78       374.4423570 11.1561
+W1P79       371.2181702 12.2278
+W1P80       379.0052918 18.6395
+> modelSC = svyglm(X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
+Error in svyglm.svyrep.design(X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R +  : 
+  all variables must be in design= argument
+> modelSC = svyglm(X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
+observations with zero weight not used for calculating dispersion> summary(modelSC)
+
+Call:
+svyglm(formula = X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + 
+    X_ASIAN_R + X_AMINAN_R + X_HAWPI_R + X_MULTR_R + X_CHSEX_R + 
+    +X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE + X1PAR1RAC + X12PAR1ED_I + 
+    X1PAR1EMP + X1HTOTAL + X1NUMSIB + X1PRIMNW + X2POVTY + X12SESL, 
+    scdrep)
+
+Survey design:
+svrepdesign.default(data = ECLSK1, type = "JKn", repweights = ECLSK1[, 
+    26:106], weights = ECLSK1[, 26], combined.weights = TRUE, 
+    rscales = 1, scale = 1, nest = TRUE)
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.8144351  0.0983516  28.616  < 2e-16 ***
+X_HISP_R     0.0636966  0.0530158   1.201 0.234292    
+X_WHITE_R    0.0725324  0.0610609   1.188 0.239566    
+X_BLACK_R    0.1169282  0.0571365   2.046 0.045099 *  
+X_ASIAN_R    0.0309046  0.0564079   0.548 0.585808    
+X_AMINAN_R   0.1206996  0.0717753   1.682 0.097839 .  
+X_HAWPI_R    0.1237820  0.0826843   1.497 0.139624    
+X_MULTR_R    0.0639854  0.0588548   1.087 0.281309    
+X_CHSEX_R   -0.0694307  0.0092678  -7.492 3.62e-10 ***
+X1BMI       -0.0002480  0.0028428  -0.087 0.930772    
+X1RESREL    -0.0485846  0.0150368  -3.231 0.002004 ** 
+X1HPARNT     0.0697272  0.0144155   4.837 9.57e-06 ***
+X1PAR1AGE   -0.0004055  0.0008347  -0.486 0.628929    
+X1PAR1RAC    0.0324914  0.0211250   1.538 0.129293    
+X12PAR1ED_I  0.0173918  0.0046695   3.725 0.000434 ***
+X1PAR1EMP   -0.0016017  0.0038685  -0.414 0.680327    
+X1HTOTAL    -0.0126516  0.0068569  -1.845 0.069963 .  
+X1NUMSIB    -0.0278899  0.0078942  -3.533 0.000798 ***
+X1PRIMNW    -0.0181288  0.0206752  -0.877 0.384074    
+X2POVTY      0.0257510  0.0104617   2.461 0.016730 *  
+X12SESL      0.0259259  0.0131676   1.969 0.053587 .  
 ---
-title: "ECLS-K-2011"
-output: html_document
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.2657775)
+
+Number of Fisher Scoring iterations: 2
+
+> summary(modelSC)
+
+Call:
+svyglm(formula = X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + 
+    X_ASIAN_R + X_AMINAN_R + X_HAWPI_R + X_MULTR_R + X_CHSEX_R + 
+    +X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE + X1PAR1RAC + X12PAR1ED_I + 
+    X1PAR1EMP + X1HTOTAL + X1NUMSIB + X1PRIMNW + X2POVTY + X12SESL, 
+    scdrep)
+
+Survey design:
+svrepdesign.default(data = ECLSK1, type = "JKn", repweights = ECLSK1[, 
+    26:106], weights = ECLSK1[, 26], combined.weights = TRUE, 
+    rscales = 1, scale = 1, nest = TRUE)
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.8144351  0.0983516  28.616  < 2e-16 ***
+X_HISP_R     0.0636966  0.0530158   1.201 0.234292    
+X_WHITE_R    0.0725324  0.0610609   1.188 0.239566    
+X_BLACK_R    0.1169282  0.0571365   2.046 0.045099 *  
+X_ASIAN_R    0.0309046  0.0564079   0.548 0.585808    
+X_AMINAN_R   0.1206996  0.0717753   1.682 0.097839 .  
+X_HAWPI_R    0.1237820  0.0826843   1.497 0.139624    
+X_MULTR_R    0.0639854  0.0588548   1.087 0.281309    
+X_CHSEX_R   -0.0694307  0.0092678  -7.492 3.62e-10 ***
+X1BMI       -0.0002480  0.0028428  -0.087 0.930772    
+X1RESREL    -0.0485846  0.0150368  -3.231 0.002004 ** 
+X1HPARNT     0.0697272  0.0144155   4.837 9.57e-06 ***
+X1PAR1AGE   -0.0004055  0.0008347  -0.486 0.628929    
+X1PAR1RAC    0.0324914  0.0211250   1.538 0.129293    
+X12PAR1ED_I  0.0173918  0.0046695   3.725 0.000434 ***
+X1PAR1EMP   -0.0016017  0.0038685  -0.414 0.680327    
+X1HTOTAL    -0.0126516  0.0068569  -1.845 0.069963 .  
+X1NUMSIB    -0.0278899  0.0078942  -3.533 0.000798 ***
+X1PRIMNW    -0.0181288  0.0206752  -0.877 0.384074    
+X2POVTY      0.0257510  0.0104617   2.461 0.016730 *  
+X12SESL      0.0259259  0.0131676   1.969 0.053587 .  
 ---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+(Dispersion parameter for gaussian family taken to be 0.2657775)
 
-Here we are setting the WD to google drive.  See earlier versions for getting the original data source.
-```{r}
-setwd("~/Google Drive/PARCS/Projects/ECLSK2011/Data")
+Number of Fisher Scoring iterations: 2
 
-# These are all of the variables that can remain unchanged
-data1 = cbind(X1PRNCON = data$X1PRNCON, X1PRNSOC = data$X1PRNSOC, X1PRNSAD = data$X1PRNSAD, X1PRNIMP = data$X1PRNIMP, X1PRNAPP = data$X1PRNAPP, X1BMI = data$X1BMI, X1PAR1AGE = data$X1PAR1AGE, X1PAR1EMP = data$X1PAR1EMP, X1HTOTAL = data$X1HTOTAL, X1NUMSIB = data$X1NUMSIB, X2POVTY = data$X2POVTY, X12SESL = data$X12SESL, X12PAR1ED_I = data$X12PAR1ED_I, X12LANGST = data$X12LANGST,  X_CHSEX_R = data$X_CHSEX_R, X1RESREL = data$X1RESREL, X1HPARNT = data$X1HPARNT, X1PRIMNW = data$X1PRIMNW, W1P0 = data$W1P0, data[,10894:10973])
-head(data1)
+> modelSCSum = summary(modelSC)
+> modelSCSum$coefficients
+                 Estimate   Std. Error    t value     Pr(>|t|)
+(Intercept)  2.8144350627 0.0983516224 28.6160512 1.128683e-36
+X_HISP_R     0.0636965682 0.0530157945  1.2014640 2.342924e-01
+X_WHITE_R    0.0725324424 0.0610609019  1.1878705 2.395655e-01
+X_BLACK_R    0.1169282335 0.0571364562  2.0464733 4.509862e-02
+X_ASIAN_R    0.0309046335 0.0564078515  0.5478782 5.858081e-01
+X_AMINAN_R   0.1206996381 0.0717752966  1.6816320 9.783871e-02
+X_HAWPI_R    0.1237820145 0.0826842614  1.4970444 1.396241e-01
+X_MULTR_R    0.0639853515 0.0588548469  1.0871722 2.813089e-01
+X_CHSEX_R   -0.0694307102 0.0092678027 -7.4916042 3.619130e-10
+X1BMI       -0.0002480010 0.0028427772 -0.0872390 9.307720e-01
+X1RESREL    -0.0485846229 0.0150367514 -3.2310585 2.003875e-03
+X1HPARNT     0.0697272059 0.0144154882  4.8369646 9.566510e-06
+X1PAR1AGE   -0.0004054571 0.0008347395 -0.4857289 6.289285e-01
+X1PAR1RAC    0.0324914056 0.0211249967  1.5380549 1.292926e-01
+X12PAR1ED_I  0.0173918138 0.0046694831  3.7245694 4.344367e-04
+X1PAR1EMP   -0.0016016815 0.0038684958 -0.4140321 6.803270e-01
+X1HTOTAL    -0.0126516027 0.0068569362 -1.8450810 6.996254e-02
+X1NUMSIB    -0.0278899051 0.0078941830 -3.5329692 7.975597e-04
+X1PRIMNW    -0.0181287695 0.0206752493 -0.8768344 3.840739e-01
+X2POVTY      0.0257509811 0.0104617221  2.4614476 1.673017e-02
+X12SESL      0.0259258741 0.0131676048  1.9689134 5.358689e-02
+> modelSCSum = modelSCSum$coefficients
+> modelSCSum$Estimate
+Error in modelSCSum$Estimate : $ operator is invalid for atomic vectors
+> modelSCSum = as.data.frame(modelSCSum$coefficients)
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = as.matrix(modelSCSum$coefficients)
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = modelSCSum$coefficients
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = summary(modelSC)
+> modelSCSum = modelSCSum$coefficients
+> typeof(modelSCSum)
+[1] "double"
+> modelSCSum = modelSCSum$coefficients[2,4]
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = summary(modelSC)
+> modelSCSum = modelSCSum$coefficients[2,4]
+> modelSCSum
+[1] 0.2342924
+> summary(modelSC)
 
+Call:
+svyglm(formula = X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + 
+    X_ASIAN_R + X_AMINAN_R + X_HAWPI_R + X_MULTR_R + X_CHSEX_R + 
+    +X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE + X1PAR1RAC + X12PAR1ED_I + 
+    X1PAR1EMP + X1HTOTAL + X1NUMSIB + X1PRIMNW + X2POVTY + X12SESL, 
+    scdrep)
 
-# These are variables that will need to be changed to binary at a later date.
-data2 = cbind(X12LANGST = data$X12LANGST,  X_CHSEX_R = data$X_CHSEX_R, X1RESREL = data$X1RESREL, X1HPARNT = data$X1HPARNT, X1PRIMNW = data$X1PRIMNW)
-head(data2)
-# We will need to create new variables for each race with this variable.
-data3 = cbind(X_RACETHP_R = data$X_RACETHP_R)
+Survey design:
+svrepdesign.default(data = ECLSK1, type = "JKn", repweights = ECLSK1[, 
+    26:106], weights = ECLSK1[, 26], combined.weights = TRUE, 
+    rscales = 1, scale = 1, nest = TRUE)
 
-data4  = cbind( X1PAR1RAC = data$X1PAR1RAC)
-data4 = as.data.frame(data4)
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  2.8144351  0.0983516  28.616  < 2e-16 ***
+X_HISP_R     0.0636966  0.0530158   1.201 0.234292    
+X_WHITE_R    0.0725324  0.0610609   1.188 0.239566    
+X_BLACK_R    0.1169282  0.0571365   2.046 0.045099 *  
+X_ASIAN_R    0.0309046  0.0564079   0.548 0.585808    
+X_AMINAN_R   0.1206996  0.0717753   1.682 0.097839 .  
+X_HAWPI_R    0.1237820  0.0826843   1.497 0.139624    
+X_MULTR_R    0.0639854  0.0588548   1.087 0.281309    
+X_CHSEX_R   -0.0694307  0.0092678  -7.492 3.62e-10 ***
+X1BMI       -0.0002480  0.0028428  -0.087 0.930772    
+X1RESREL    -0.0485846  0.0150368  -3.231 0.002004 ** 
+X1HPARNT     0.0697272  0.0144155   4.837 9.57e-06 ***
+X1PAR1AGE   -0.0004055  0.0008347  -0.486 0.628929    
+X1PAR1RAC    0.0324914  0.0211250   1.538 0.129293    
+X12PAR1ED_I  0.0173918  0.0046695   3.725 0.000434 ***
+X1PAR1EMP   -0.0016017  0.0038685  -0.414 0.680327    
+X1HTOTAL    -0.0126516  0.0068569  -1.845 0.069963 .  
+X1NUMSIB    -0.0278899  0.0078942  -3.533 0.000798 ***
+X1PRIMNW    -0.0181288  0.0206752  -0.877 0.384074    
+X2POVTY      0.0257510  0.0104617   2.461 0.016730 *  
+X12SESL      0.0259259  0.0131676   1.969 0.053587 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-#Combining all four of the datas.  Keeping them seperate for data transformations below
-data1 = cbind(data1, data2, data3, data4)
-head(data1)
-# Change the -9 to NAs
-data1 = apply(data1, 2, function(x){ifelse(x == -9, NA, x)})
-data1 = as.data.frame(data1)
-head(data1)
+(Dispersion parameter for gaussian family taken to be 0.2657775)
 
+Number of Fisher Scoring iterations: 2
 
-```
-Now we need to alter the variables to be binary in necessary.  First we create get all the variables where 1 is the interest and get those as 1 and rest as zero.  Then for parent ethnicty we change the ones to zero and everything else to one to have a non-white be one.  Then we need to grab a seperate subset of the all the remaining variables, so we don't double up on those variables when we cbind them togehter at the end.  I then needed to get the variables in the same order and rename with meaningful names.  Need to grab the correct data from data sets two and three, because those have the binary transformations.
-```{r}
-
-data2 = cbind(X12LANGST = data1$X12LANGST,  X_CHSEX_R = data1$X_CHSEX_R, X1RESREL = data1$X1RESREL, X1HPARNT = data1$X1HPARNT, X1PRIMNW = data1$X1PRIMNW)
-
-data2 = ifelse(is.na(data2), NA, ifelse(data2 == 1, 1,0))
-data2 = as.data.frame(data2)
-head(data2)
-
-# Here is the ethnicity variable that needs to be transformed into the original variables that you used.  Remember that original variable were incorrect and just keeping the names the same here for consistency.
-X_HISP_R = ifelse(is.na(data3), NA, ifelse(data3 == 3, 1, 0))
-X_HISP_R = as.data.frame(X_HISP_R)
-names(X_HISP_R) = c("X_HISP_R")
-
-X_WHITE_R = ifelse(is.na(data3), NA, ifelse(data3 == 1, 1, 0))
-X_WHITE_R = as.data.frame(X_WHITE_R)
-names(X_WHITE_R) = c("X_WHITE_R")
-sum(X_WHITE_R, na.rm =TRUE)
-
-X_BLACK_R = ifelse(is.na(data3), NA, ifelse(data3 == 2, 1, 0))
-X_BLACK_R = as.data.frame(X_BLACK_R)
-names(X_BLACK_R) = c("X_BLACK_R")
-
-X_ASIAN_R = ifelse(is.na(data3), NA, ifelse(data3 == 5, 1, 0))
-X_ASIAN_R = as.data.frame(X_ASIAN_R)
-names(X_ASIAN_R) = c("X_ASIAN_R")
-
-X_AMINAN_R = ifelse(is.na(data3), NA, ifelse(data3 == 7, 1, 0))
-X_AMINAN_R = as.data.frame(X_AMINAN_R)
-names(X_AMINAN_R) = c("X_AMINAN_R")
-
-X_HAWPI_R = ifelse(is.na(data3), NA, ifelse(data3 == 6, 1, 0))
-X_HAWPI_R = as.data.frame(X_HAWPI_R)
-names(X_HAWPI_R) = c("X_HAWPI_R")
-
-X_MULTR_R = ifelse(is.na(data3), NA, ifelse(data3 == 8, 1, 0))
-X_MULTR_R = as.data.frame(X_MULTR_R)
-names(X_MULTR_R) = c("X_MULTR_R")
-
-
-data4 = cbind(X_HISP_R, X_WHITE_R, X_BLACK_R, X_ASIAN_R, X_AMINAN_R, X_AMINAN_R, X_HAWPI_R, X_MULTR_R)
-data4 = as.data.frame(data4)
-
-# Need to change 2 through 8 to be 1 and 1 to be zero
-data6 = cbind(X1PAR1RAC = data1$X1PAR1RAC)
-data6 = ifelse(is.na(data6), NA, ifelse(data6 == 1, 0,1))
-data6 = as.data.frame(data6)
-```
-Reording the variables to be in the correct order.  Grab each variable from the correct data set from above.
-```{r}
-# Rearrange and then rename variables to get them in the correct order.  This includes getting data2 and data3 into the correct order as well, because you need to rename all of these variables. 
-
-data5 = cbind(X1PRNCON = data1$X1PRNCON, X1PRNSOC = data1$X1PRNSOC, X1PRNSAD = data1$X1PRNSAD, X1PRNIMP = data1$X1PRNIMP, X1PRNAPP = data1$X1PRNAPP,X_HISP_R = data4$X_HISP_R, X_WHITE_R = data4$X_WHITE_R, X_BLACK_R = data4$X_BLACK_R, X_ASIAN_R = data4$X_ASIAN_R, X_AMINAN_R = data4$X_AMINAN_R, X_HAWPI_R = data4$X_HAWPI_R, X_MULTR_R = data4$X_MULTR_R, X_CHSEX_R = data2$X_CHSEX_R, X1BMI = data1$X1BMI,X1RESREL = data2$X1RESREL,X1HPARNT = data2$X1HPARNT, X1PAR1AGE = data1$X1PAR1AGE, X1PAR1RAC = data6$X1PAR1RAC,X12PAR1ED_I = data1$X12PAR1ED_I, X1PAR1EMP = data1$X1PAR1EMP, X1HTOTAL = data1$X1HTOTAL, X1NUMSIB = data1$X1NUMSIB, X1PRIMNW = data2$X1PRIMNW, X2POVTY = data1$X2POVTY, X12SESL = data1$X12SESL)
-
-head(data5)
-
-
-data1 = cbind(data5, W1P0 = data1[,19], data1[,20:99])
-data1 = as.data.frame(data1)
-
-head(data1)
-```
-
-Here we will use Amelia.  Need to set m as five for five imputed data sets.  Then we place each of the variables into their appropriate categories.
-
-```{r}
-library(Amelia)
-library(mitools)
-library(survey)
-m = 5
-a.out = amelia(x = data1, m=m, ords = c("X1PAR1EMP", "X2POVTY", "X12PAR1ED_I"), logs = c("X1HTOTAL", "X1NUMSIB"), noms = c("X_HISP_R", "X_WHITE_R", "X_BLACK_R", "X_ASIAN_R", "X_AMINAN_R", "X_HAWPI_R", "X_MULTR_R", "X_CHSEX_R", "X1RESREL", "X1HPARNT", "X1PRIMNW", "X1PAR1RAC"))
-#a.out$imputations
-a.out.imp= imputationList(na.omit(a.out$imputations))
-#head(test)
-dim(a.out.imp)
-typeof(a.out.imp)
-#head(a.out.imp[c(1:6)])
-write.amelia(obj = a.out, file.stem = "ECLSK")
-#head(a.out.imp[c(1:6)])
-#test = a.out.imp$imputations$imp1
-```
-
-This is what the weights should look like:
-scdrep = svrepdesign(data = data1, type="JKn", repweights = data1[,27:106], weights = data1[,27], combined.weights = TRUE, rscales = 1, scale = 1)
-```{r}
-
-
-scdrep = svrepdesign(data = (a.out.imp), type="JKn", repweights = a.out.imp[,], weights = a.out.imp[,25:105], combined.weights = TRUE, rscales = 1, scale = 1, nest = TRUE)
-
-# Grab descriptives
-svymean(data1, scdrep)
-
-modelSC = svyglm(X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
-
-summary(modelSC)
-
-modelSI = svyglm(X1PRNSOC ~X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
-
-summary(modelSI)
-
-
-modelSL = svyglm(X1PRNSAD ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
-
-summary(modelSL)
-
-modelIO = svyglm(X1PRNIMP ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
-
-summary(modelIO)
-
-modelAP = svyglm(X1PRNAPP ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
-
-summary(modelAP)
-```
-
+> modelSCSum = modelSCSum$coefficients[,1:2]
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = modelSCSum$coefficients[1:2]
+Error in modelSCSum$coefficients : 
+  $ operator is invalid for atomic vectors
+> modelSCSum = summary(modelSC)$coefficents(2,4)
+Error: attempt to apply non-function
+> modelSCSum = summary(modelSC)$coefficents[2,4]
+> modelSCSum
+NULL
+> modelSCSum = summary(modelSC)$coefficents[,4]
+> modelSCSum
+NULL
+> modelSCSum = summary(modelSC)$coefficents[,1]
+> modelSCSum
+NULL
+> modelSCSum = summary(modelSC)$coefficents[1,1]
+> modelSCSum
+NULL
+> modelSCSum = summary(modelSC)$coefficents
+> modelSCSum
+NULL
+> summary(modelSC)$coefficients
+                 Estimate   Std. Error    t value     Pr(>|t|)
+(Intercept)  2.8144350627 0.0983516224 28.6160512 1.128683e-36
+X_HISP_R     0.0636965682 0.0530157945  1.2014640 2.342924e-01
+X_WHITE_R    0.0725324424 0.0610609019  1.1878705 2.395655e-01
+X_BLACK_R    0.1169282335 0.0571364562  2.0464733 4.509862e-02
+X_ASIAN_R    0.0309046335 0.0564078515  0.5478782 5.858081e-01
+X_AMINAN_R   0.1206996381 0.0717752966  1.6816320 9.783871e-02
+X_HAWPI_R    0.1237820145 0.0826842614  1.4970444 1.396241e-01
+X_MULTR_R    0.0639853515 0.0588548469  1.0871722 2.813089e-01
+X_CHSEX_R   -0.0694307102 0.0092678027 -7.4916042 3.619130e-10
+X1BMI       -0.0002480010 0.0028427772 -0.0872390 9.307720e-01
+X1RESREL    -0.0485846229 0.0150367514 -3.2310585 2.003875e-03
+X1HPARNT     0.0697272059 0.0144154882  4.8369646 9.566510e-06
+X1PAR1AGE   -0.0004054571 0.0008347395 -0.4857289 6.289285e-01
+X1PAR1RAC    0.0324914056 0.0211249967  1.5380549 1.292926e-01
+X12PAR1ED_I  0.0173918138 0.0046694831  3.7245694 4.344367e-04
+X1PAR1EMP   -0.0016016815 0.0038684958 -0.4140321 6.803270e-01
+X1HTOTAL    -0.0126516027 0.0068569362 -1.8450810 6.996254e-02
+X1NUMSIB    -0.0278899051 0.0078941830 -3.5329692 7.975597e-04
+X1PRIMNW    -0.0181287695 0.0206752493 -0.8768344 3.840739e-01
+X2POVTY      0.0257509811 0.0104617221  2.4614476 1.673017e-02
+X12SESL      0.0259258741 0.0131676048  1.9689134 5.358689e-02
+> summary(modelSC)$coefficients[,3]
+(Intercept)    X_HISP_R   X_WHITE_R   X_BLACK_R   X_ASIAN_R  X_AMINAN_R   X_HAWPI_R 
+ 28.6160512   1.2014640   1.1878705   2.0464733   0.5478782   1.6816320   1.4970444 
+  X_MULTR_R   X_CHSEX_R       X1BMI    X1RESREL    X1HPARNT   X1PAR1AGE   X1PAR1RAC 
+  1.0871722  -7.4916042  -0.0872390  -3.2310585   4.8369646  -0.4857289   1.5380549 
+X12PAR1ED_I   X1PAR1EMP    X1HTOTAL    X1NUMSIB    X1PRIMNW     X2POVTY     X12SESL 
+  3.7245694  -0.4140321  -1.8450810  -3.5329692  -0.8768344   2.4614476   1.9689134 
+> summary(modelSC)$coefficients[,3:4]
+               t value     Pr(>|t|)
+(Intercept) 28.6160512 1.128683e-36
+X_HISP_R     1.2014640 2.342924e-01
+X_WHITE_R    1.1878705 2.395655e-01
+X_BLACK_R    2.0464733 4.509862e-02
+X_ASIAN_R    0.5478782 5.858081e-01
+X_AMINAN_R   1.6816320 9.783871e-02
+X_HAWPI_R    1.4970444 1.396241e-01
+X_MULTR_R    1.0871722 2.813089e-01
+X_CHSEX_R   -7.4916042 3.619130e-10
+X1BMI       -0.0872390 9.307720e-01
+X1RESREL    -3.2310585 2.003875e-03
+X1HPARNT     4.8369646 9.566510e-06
+X1PAR1AGE   -0.4857289 6.289285e-01
+X1PAR1RAC    1.5380549 1.292926e-01
+X12PAR1ED_I  3.7245694 4.344367e-04
+X1PAR1EMP   -0.4140321 6.803270e-01
+X1HTOTAL    -1.8450810 6.996254e-02
+X1NUMSIB    -3.5329692 7.975597e-04
+X1PRIMNW    -0.8768344 3.840739e-01
+X2POVTY      2.4614476 1.673017e-02
+X12SESL      1.9689134 5.358689e-02
+> summary(modelSC)$coefficients[,2:3]
+              Std. Error    t value
+(Intercept) 0.0983516224 28.6160512
+X_HISP_R    0.0530157945  1.2014640
+X_WHITE_R   0.0610609019  1.1878705
+X_BLACK_R   0.0571364562  2.0464733
+X_ASIAN_R   0.0564078515  0.5478782
+X_AMINAN_R  0.0717752966  1.6816320
+X_HAWPI_R   0.0826842614  1.4970444
+X_MULTR_R   0.0588548469  1.0871722
+X_CHSEX_R   0.0092678027 -7.4916042
+X1BMI       0.0028427772 -0.0872390
+X1RESREL    0.0150367514 -3.2310585
+X1HPARNT    0.0144154882  4.8369646
+X1PAR1AGE   0.0008347395 -0.4857289
+X1PAR1RAC   0.0211249967  1.5380549
+X12PAR1ED_I 0.0046694831  3.7245694
+X1PAR1EMP   0.0038684958 -0.4140321
+X1HTOTAL    0.0068569362 -1.8450810
+X1NUMSIB    0.0078941830 -3.5329692
+X1PRIMNW    0.0206752493 -0.8768344
+X2POVTY     0.0104617221  2.4614476
+X12SESL     0.0131676048  1.9689134
+> summary(modelSC)$coefficients[,1:2]
+                 Estimate   Std. Error
+(Intercept)  2.8144350627 0.0983516224
+X_HISP_R     0.0636965682 0.0530157945
+X_WHITE_R    0.0725324424 0.0610609019
+X_BLACK_R    0.1169282335 0.0571364562
+X_ASIAN_R    0.0309046335 0.0564078515
+X_AMINAN_R   0.1206996381 0.0717752966
+X_HAWPI_R    0.1237820145 0.0826842614
+X_MULTR_R    0.0639853515 0.0588548469
+X_CHSEX_R   -0.0694307102 0.0092678027
+X1BMI       -0.0002480010 0.0028427772
+X1RESREL    -0.0485846229 0.0150367514
+X1HPARNT     0.0697272059 0.0144154882
+X1PAR1AGE   -0.0004054571 0.0008347395
+X1PAR1RAC    0.0324914056 0.0211249967
+X12PAR1ED_I  0.0173918138 0.0046694831
+X1PAR1EMP   -0.0016016815 0.0038684958
+X1HTOTAL    -0.0126516027 0.0068569362
+X1NUMSIB    -0.0278899051 0.0078941830
+X1PRIMNW    -0.0181287695 0.0206752493
+X2POVTY      0.0257509811 0.0104617221
+X12SESL      0.0259258741 0.0131676048
+> modelSC1Coef= summary(modelSC1)$coefficients[,1:2]
+Error in summary(modelSC1) : object 'modelSC1' not found
+> ECLSK1  = read.csv("ECLSK1.csv", header = TRUE)
+> ECLSK1 = ECLSK1[c(-1)]
+> ECLSK1 = as.data.frame(ECLSK1)
+> 
+> scdrep1 = svrepdesign(data = ECLSK1, type="JKn", repweights = ECLSK1[,26:106], weights = ECLSK1[,26], combined.weights = TRUE, rscales = 1, scale = 1, nest = TRUE)
+> 
+> # Grab descriptives
+> svymean(ECLSK1, scdrep)
+                   mean      SE
+X1PRNCON      2.8844061  0.0065
+X1PRNSOC      3.4363285  0.0086
+X1PRNSAD      1.4852886  0.0050
+X1PRNIMP      2.0488073  0.0091
+X1PRNAPP      3.1774778  0.0065
+X_HISP_R      0.2378346  0.0134
+X_WHITE_R     0.5225024  0.0170
+X_BLACK_R     0.1324976  0.0129
+X_ASIAN_R     0.0378019  0.0054
+X_AMINAN_R    0.0095745  0.0045
+X_HAWPI_R     0.0030590  0.0005
+X_MULTR_R     0.0438298  0.0024
+X_CHSEX_R     0.5160719  0.0051
+X1BMI        16.4954846  0.0299
+X1RESREL      0.8598708  0.0034
+X1HPARNT      0.6772550  0.0092
+X1PAR1AGE    33.8515708  0.1071
+X1PAR1RAC     0.4276423  0.0172
+X12PAR1ED_I   4.5917991  0.0432
+X1PAR1EMP     2.2709122  0.0226
+X1HTOTAL      4.5810360  0.0221
+X1NUMSIB      1.4920482  0.0192
+X1PRIMNW      0.1019882  0.0038
+X2POVTY       2.2231476  0.0220
+X12SESL      -0.0702516  0.0217
+W1P0        375.1667975  7.5438
+W1P1        375.2373542  7.5557
+W1P2        375.2373605  7.5336
+W1P3        375.0276364  7.5756
+W1P4        375.1320190  7.5583
+W1P5        375.1653658  7.6421
+W1P6        374.9553414  7.7600
+W1P7        375.0618806  7.6389
+W1P8        375.1985639  7.5500
+W1P9        375.2592800  7.6883
+W1P10       375.2611119  7.6740
+W1P11       375.6999512  8.0988
+W1P12       375.0769718  7.5607
+W1P13       375.1020850  7.7699
+W1P14       374.9734739  7.5893
+W1P15       374.8154085  7.5695
+W1P16       375.2974639  7.8734
+W1P17       375.4575396  7.5962
+W1P18       375.1877879  7.5417
+W1P19       375.5319870  7.7802
+W1P20       375.2306164  7.5788
+W1P21       375.0327542  7.5506
+W1P22       374.9514134  7.6604
+W1P23       375.3332102  7.6011
+W1P24       375.3126525  7.6150
+W1P25       374.9358125  7.6337
+W1P26       375.3769378  7.6476
+W1P27       375.3202565  7.7501
+W1P28       375.3335582  7.6918
+W1P29       375.3210101  7.7966
+W1P30       375.2982988  7.6502
+W1P31       375.1565485  7.5659
+W1P32       375.0969989  7.5257
+W1P33       375.0819893  7.5768
+W1P34       375.0294810  7.5682
+W1P35       375.3274305  7.6127
+W1P36       374.7596846  7.5961
+W1P37       375.6384140  7.9991
+W1P38       375.2091402  7.6905
+W1P39       375.0042881  7.5995
+W1P40       375.0328089  7.5840
+W1P41       376.2920218 12.6971
+W1P42       375.9067691 12.4911
+W1P43       375.5231887 11.2902
+W1P44       374.7969025 11.9755
+W1P45       374.9973387  9.9626
+W1P46       374.1523224  9.9652
+W1P47       375.8740572 11.7919
+W1P48       374.8545228  9.9987
+W1P49       376.2886429 14.5043
+W1P50       375.4954454  9.5786
+W1P51       375.8841760 10.0818
+W1P52       375.1671034  9.4364
+W1P53       375.2023129  9.5374
+W1P54       376.0876604 15.1628
+W1P55       374.9464293 10.1327
+W1P56       374.8459782 11.9340
+W1P57       374.5928504  9.9191
+W1P58       374.4560824  7.7476
+W1P59       374.1338928 11.4595
+W1P60       375.4869969 11.6197
+W1P61       375.7540529 10.0509
+W1P62       376.8171836 14.5976
+W1P63       374.8630964 11.8622
+W1P64       375.0641226  8.3228
+W1P65       374.4322642  7.7694
+W1P66       375.9448274  9.6765
+W1P67       374.8657538 10.0839
+W1P68       375.3861189  9.6948
+W1P69       375.2242191 10.8546
+W1P70       374.5692742  8.8259
+W1P71       375.9813164 11.4915
+W1P72       375.2657027  8.6218
+W1P73       372.3942499 10.5276
+W1P74       375.2531948 15.4052
+W1P75       375.6599612 14.3480
+W1P76       373.7943375 14.3767
+W1P77       373.6384128 12.8419
+W1P78       374.4423570 11.1561
+W1P79       371.2181702 12.2278
+W1P80       379.0052918 18.6395
+> 
+> modelSC1 = svyglm(X1PRNCON ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep)
+observations with zero weight not used for calculating dispersion> 
+> modelSC1Coef= summary(modelSC1)$coefficients[,1:2]
+> modelSC1Coef = as.data.frame(modelSC1Coef)
+> modelSI1 = svyglm(X1PRNSOC ~X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP + X12LANGST + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep1)
+Error in svyglm.svyrep.design(X1PRNSOC ~ X_HISP_R + X_WHITE_R + X_BLACK_R +  : 
+  all variables must be in design= argument
+> modelSI1 = svyglm(X1PRNSOC ~X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP  + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep1)
+observations with zero weight not used for calculating dispersion> 
+> 
+> modelSI1Coef= summary(modelSI1)$coefficients[,1:2]
+> modelSI1Coef = as.data.frame(modelSI1Coef)
+> modelSL1 = svyglm(X1PRNSAD ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP  + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep1)
+observations with zero weight not used for calculating dispersion> 
+> modelSL1Coef= summary(modelSL1)$coefficients[,1:2]
+> modelSL1Coef = as.data.frame(modelSL1Coef)
+> modelIO1 = svyglm(X1PRNIMP ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP  + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep1)
+observations with zero weight not used for calculating dispersion> 
+> modelIO1Coef= summary(modelIO1)$coefficients[,1:2]
+> modelIO1Coef = as.data.frame(modelIO1Coef)
+> modelAP1 = svyglm(X1PRNAPP ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP  + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep1)
+observations with zero weight not used for calculating dispersion> 
+> modelAPCoef= summary(modelAP1)$coefficients[,1:2]
+> modelAPCoef = as.data.frame(modelAPCoef)
+> 
