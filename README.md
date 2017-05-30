@@ -306,6 +306,7 @@ modelSI5Coef = as.data.frame(t(modelSI5Coef))
 
 modelSL5 = svyglm(X1PRNSAD ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMINAN_R+ X_HAWPI_R+ X_MULTR_R+  X_CHSEX_R+ + X1BMI + X1RESREL + X1HPARNT + X1PAR1AGE  + X1PAR1RAC  + X12PAR1ED_I  + X1PAR1EMP  + X1HTOTAL + X1NUMSIB +  X1PRIMNW  + X2POVTY + X12SESL, scdrep5)
 
+
 modelSL5Coef= summary(modelSL5)$coefficients[,1:2]
 modelSL5Coef = as.data.frame(t(modelSL5Coef))
 
@@ -318,6 +319,10 @@ modelAP5 = svyglm(X1PRNAPP ~ X_HISP_R + X_WHITE_R + X_BLACK_R + X_ASIAN_R+ X_AMI
 
 modelAP5Coef= summary(modelAP5)$coefficients[,1:2]
 modelAP5Coef = as.data.frame(t(modelAP5Coef))
+
+
+# SEtting the degrees of freedom here.
+df =  modelAP5$df.null 
 ```
 Now we need to rbind all of the parameter and sd estimates into two columns.  However, we need to grab the first row of these data sets, because the second row is the standard error.  We need seperate data set for the se's, because we need to stack the different sets on top of each other.
 
@@ -338,8 +343,10 @@ SCModelsCombine = as.data.frame(cbind(Estimate = t(SCModelsCombine$q.mi),SE =  t
 names(SCModelsCombine) = c("Estimate", "SE")
 SCModelsCombine
 SCModelsCombine$T_Stat = SCModelsCombine$Estimate / SCModelsCombine$SE
+SCModelsCombine$P_Value = 2*pt(-abs(SCModelsCombine$T_Stat), df = df)
+SCModelsCombine = round(SCModelsCombine,3)
 
-SCModelsCombine$SCg = ifelse(SCModelsCombine$T_Stat > 2, "*", "NS")
+SCModelsCombine$Sig = ifelse(SCModelsCombine$P_Value <= .000, "***", ifelse( SCModelsCombine$P_Value <= .01, "**", ifelse(SCModelsCombine$P_Value <= .05, "*","NS")))
 
 SCModelsCombine
 
@@ -363,7 +370,7 @@ names(SIModelsCombine) = c("Estimate", "SE")
 SIModelsCombine
 SIModelsCombine$T_Stat = SIModelsCombine$Estimate / SIModelsCombine$SE
 
-SIModelsCombine$Sig = ifelse(SIModelsCombine$T_Stat > 2, "*", "NS")
+SIModelsCombine$Sig = ifelse(SIModelsCombine$T_Stat > 2, "*", ifelse( SIModelsCombine$T_Stat < -2, "*", "NS"))
 
 SIModelsCombine
 
@@ -386,7 +393,7 @@ names(SLModelsCombine) = c("Estimate", "SE")
 SLModelsCombine
 SLModelsCombine$T_Stat = SLModelsCombine$Estimate / SLModelsCombine$SE
 
-SLModelsCombine$Sig = ifelse(SLModelsCombine$T_Stat > 2, "*", "NS")
+SLModelSLombine$SLg = ifelse(SLModelSLombine$T_Stat > 2, "*", ifelse( SLModelSLombine$T_Stat < -2, "*", "NS"))
 
 SLModelsCombine
 ```
